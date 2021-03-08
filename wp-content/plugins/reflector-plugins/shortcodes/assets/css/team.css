@@ -1,0 +1,70 @@
+.team-members-wrap.simple .team-item {list-style: none;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: justify;-webkit-justify-content: space-between;-ms-flex-pack: justify;justify-content: space-between;}
+.team-members-wrap.simple .team-item:not(:last-of-type) {padding-bottom: 17px;margin-bottom: 25px;border-bottom: 1px solid var(--dark-color);}
+.team-members-wrap.simple .member-name {margin: 0;padding-right: 20px;color: var(--dark-color);font-size: 17px;letter-spacing: 3px;font-weight: 700;}
+.team-members-wrap.simple .member-position {color: var(--main-color);font-size: 12px;font-weight: 700;letter-spacing: 1.5px;}
+@media only screen and (max-width: 768px) {.team-members-wrap.simple .team-item:not(:last-of-type) {padding-bottom: 12px;margin-bottom: 15px;}
+	.team-members-wrap.simple .member-name {font-size: 16px;letter-spacing: 2px;}}
+@media only screen and (max-width: 576px) {.team-members-wrap.simple .member-position {letter-spacing: 1px;}}
+.team-members-wrap.single {max-width: 1000px;width: 100%;margin: auto;text-align: center;}
+.team-members-wrap.single .image-wrap {background-position: center;background-size: cover;padding-top: 100%;position: relative;}
+.team-members-wrap.single .description-wrap {position: absolute;top: calc(50% + 10px);left: 50%;width: calc(100% - 30px);height: calc(100% - 30px);-webkit-transform: translate(-50%,-50%) translateZ(0);-moz-transform: translate(-50%,-50%) translateZ(0);-ms-transform: translate(-50%,-50%) translateZ(0);-o-transform: translate(-50%,-50%) translateZ(0);transform: translate(-50%,-50%) translateZ(0);background-color: rgba(255,255,255,.8);opacity: 0;padding: 20px;text-align: center;display: -webkit-flex;display: flex;align-items: center;justify-content: center;flex-direction: column;-webkit-transition: top .45s ease,opacity .45s ease;-moz-transition: top .45s ease,opacity .45s ease;transition: top .45s ease,opacity .45s ease;}
+.team-members-wrap.single .description-wrap .description {font-size: 17px;font-weight: 300;margin-bottom: 20px;color: var(--dark-color);}
+.team-members-wrap.single .description-wrap .socials a {display: inline-block;margin: 0 7px;font-size: 17px;color: var(--dark-color);-webkit-transition: all 450ms ease;-moz-transition: all 450ms ease;-ms-transition: all 450ms ease;-o-transition: all 450ms ease;transition: all 450ms ease;}
+.team-members-wrap.single .description-wrap .socials a:hover {opacity: 1;color: var(--main-color);}
+.team-members-wrap.single:hover .description-wrap {opacity: 1;top: 50%;}
+.team-members-wrap.single:hover .content-wrap {top: -5px;}
+.team-members-wrap.single .content-wrap {margin-top: 25px;position: relative;top: 0;-webkit-transform: translateZ(0);-moz-transform: translateZ(0);-ms-transform: translateZ(0);-o-transform: translateZ(0);transform: translateZ(0);-webkit-transition: all .3s ease;-moz-transition: all .3s ease;-ms-transition: all .3s ease;-o-transition: all .3s ease;transition: all .3s ease;}
+.team-members-wrap.single .content-wrap .name {font-size: 17px;font-weight: 700;letter-spacing: 2.2px;}
+.team-members-wrap.single .content-wrap .position {margin-top: 5px;font-size: 17px;font-weight: 300;color: var(--grey-color);}
+@media only screen and (max-width: 768px) {.team-members-wrap.single .content-wrap .name {font-size: 16px;letter-spacing: 2px;}}
+.team-members-wrap.modern {max-width: 375px;margin: auto;text-align: center;}
+.team-members-wrap.modern:hover .content-wrap .name::before {width: 100%;}
+.team-members-wrap.modern:hover .socials a {opacity: 1;visibility: visible;}
+.team-members-wrap.modern:hover .image-wrap {-webkit-filter: grayscale(0);filter: grayscale(0);}
+.team-members-wrap.modern .image-wrap {padding-top: 100%;position: relative;background-size: cover;background-position: center;max-width: 375px;margin: auto;-webkit-filter: grayscale(1);filter: grayscale(1);-webkit-transition: all 350ms ease;-moz-transition: all 350ms ease;-ms-transition: all 350ms ease;-o-transition: all 350ms ease;transition: all 350ms ease;}
+.team-members-wrap.modern .socials {display: -webkit-flex;display: flex;flex-wrap: wrap;flex-direction: column;position: absolute;left: 35px;bottom: 35px;}
+.team-members-wrap.modern .socials a {color: var(--light-color);text-decoration: none;display: inline-block;margin-top: 13px;font-size: 15px;opacity: 0;visibility: hidden;-webkit-transition: all 350ms ease;-moz-transition: all 350ms ease;-ms-transition: all 350ms ease;-o-transition: all 350ms ease;transition: all 350ms ease;}
+.team-members-wrap.modern .content-wrap {margin-top: 20px;}
+.team-members-wrap.modern .content-wrap .position {margin-top: 5px;font-size: 17px;font-weight: 300;color: var(--grey-color);margin-bottom: 5px;}
+.team-members-wrap.modern .content-wrap .name {font-size: 17px;font-weight: 700;letter-spacing: 2.2px;position: relative;display: inline-block;}
+.team-members-wrap.modern .content-wrap .name::before {content: "";position: absolute;bottom: 0;left: 0;width: 0;height: 1px;background: var(--dark-color);-webkit-transition: all 450ms ease;-moz-transition: all 450ms ease;-ms-transition: all 450ms ease;-o-transition: all 450ms ease;transition: all 450ms ease;}
+.team-members-wrap.modern .socials div:nth-of-type(1) a {transition-delay: 50ms;}
+.team-members-wrap.modern .socials div:nth-of-type(2) a {transition-delay: 100ms;}
+.team-members-wrap.modern .socials div:nth-of-type(3) a {transition-delay: 150ms;}
+.team-members-wrap.modern .socials div:nth-of-type(4) a {transition-delay: 200ms;}
+.team-members-wrap.modern .socials div:nth-of-type(5) a {transition-delay: 250ms;}
+.team-members-wrap.modern .socials div:nth-of-type(6) a {transition-delay: 300ms;}
+.team-members-wrap.modern .socials div:nth-of-type(7) a {transition-delay: 350ms;}
+.team-members-wrap.modern .socials div:nth-of-type(8) a {transition-delay: 400ms;}
+.team-members-wrap.modern .socials div:nth-of-type(9) a {transition-delay: 450ms;}
+.team-members-wrap.modern .socials div:nth-of-type(10) a {transition-delay: 500ms;}
+.team-members-wrap.modern .socials div:nth-of-type(11) a {transition-delay: 550ms;}
+.team-members-wrap.modern .socials div:nth-of-type(12) a {transition-delay: 600ms;}
+.team-members-wrap.modern .socials div:nth-of-type(13) a {transition-delay: 650ms;}
+.team-members-wrap.modern .socials div:nth-of-type(14) a {transition-delay: 700ms;}
+.team-members-wrap.modern .socials div:nth-of-type(15) a {transition-delay: 750ms;}
+.team-members-wrap.modern .socials div:nth-of-type(16) a {transition-delay: 800ms;}
+.team-members-wrap.modern .socials div:nth-of-type(17) a {transition-delay: 850ms;}
+.team-members-wrap.modern .socials div:nth-of-type(18) a {transition-delay: 900ms;}
+.team-members-wrap.modern .socials div:nth-of-type(19) a {transition-delay: 950ms;}
+.team-members-wrap.modern .socials div:nth-of-type(20) a {transition-delay: 1000ms;}
+.team-members-wrap.modern .socials div:nth-of-type(21) a {transition-delay: 1050ms;}
+.team-members-wrap.modern .socials div:nth-of-type(22) a {transition-delay: 1100ms;}
+.team-members-wrap.modern .socials div:nth-of-type(23) a {transition-delay: 1150ms;}
+.team-members-wrap.modern .socials div:nth-of-type(24) a {transition-delay: 1200ms;}
+.team-members-wrap.modern .socials div:nth-of-type(25) a {transition-delay: 1250ms;}
+.team-members-wrap.modern .socials div:nth-of-type(26) a {transition-delay: 1300ms;}
+.team-members-wrap.modern .socials div:nth-of-type(27) a {transition-delay: 1350ms;}
+.team-members-wrap.modern .socials div:nth-of-type(28) a {transition-delay: 1400ms;}
+.team-members-wrap.modern .socials div:nth-of-type(29) a {transition-delay: 1450ms;}
+.team-members-wrap.modern .socials div:nth-of-type(30) a {transition-delay: 1500ms;}
+.team-members-wrap.modern .socials div:nth-of-type(31) a {transition-delay: 1550ms;}
+.team-members-wrap.modern .socials div:nth-of-type(32) a {transition-delay: 1600ms;}
+.team-members-wrap.modern .socials div:nth-of-type(33) a {transition-delay: 1650ms;}
+.team-members-wrap.modern .socials div:nth-of-type(34) a {transition-delay: 1700ms;}
+.team-members-wrap.modern .socials div:nth-of-type(35) a {transition-delay: 1750ms;}
+.team-members-wrap.modern .socials div:nth-of-type(36) a {transition-delay: 1800ms;}
+.team-members-wrap.modern .socials div:nth-of-type(37) a {transition-delay: 1850ms;}
+.team-members-wrap.modern .socials div:nth-of-type(38) a {transition-delay: 1900ms;}
+.team-members-wrap.modern .socials div:nth-of-type(39) a {transition-delay: 1950ms;}
+.team-members-wrap.modern .socials div:nth-of-type(40) a {transition-delay: 2000ms;}

@@ -1,0 +1,45 @@
+.whizzy-client-banner {min-height: 300px;text-align: center;color: var(--light-color);position: relative;padding: 150px 15px 60px;background-position: center;background-size: cover;background-attachment: fixed;}
+.whizzy-client-banner::before {content: "";position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.3);z-index: 1;}
+.whizzy-client-banner .img-wrap {background-position: center;background-size: cover;height: 150px;width: 150px;border-radius: 50%;margin-left: auto;margin-right: auto;margin-bottom: 25px;position: relative;z-index: 2;}
+.whizzy-client-banner .client-name {position: relative;z-index: 2;margin-bottom: 15px;font-weight: 700;font-size: 21px;letter-spacing: 2px;text-transform: uppercase;}
+.whizzy-client-banner .client-description {margin-left: auto;margin-right: auto;position: relative;z-index: 2;line-height: 1.6;font-size: 17px;max-width: 720px;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .proof-photo .proof-photo__bg .proof-photo__id {font-size: 15px !important;letter-spacing: 2px;font-weight: 700 !important;text-transform: uppercase;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .proof-photo .meta__action.w-select-action {display: block;}
+.single-whizzy_proof_gallery .whizzy-content-wrap #whizzy_proof_gallery {clear: both;margin-bottom: 80px;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data {width: 50%;float: right;text-align: right;margin-bottom: 40px;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data.whizzy-marg {margin-top: 40px;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item {text-align: right;margin-top: 0;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item:not(:last-child) {display: none;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .a-btn-2 {font-size: 12px;font-weight: 700;display: inline-block;text-decoration: none;letter-spacing: 4.2px;cursor: pointer;text-transform: uppercase;padding: 17px 34px 14px;border: 1px solid var(--dark-color);background-color: var(--dark-color);color: var(--light-color);}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .a-btn-2 i, .single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .a-btn-2::after {display: none;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .a-btn-2:hover {color: var(--dark-color);background-color: transparent;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters {margin: 100px auto 40px 0;text-align: left;width: 50%;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters button {padding: 0;background: 0 0;border: none;color: var(--dark-color);font-size: 15px;margin: 15px 15px 0 0;font-weight: 700;cursor: pointer;letter-spacing: 2px;line-height: 1;text-transform: uppercase;position: relative;-webkit-transition: color 450ms ease;-o-transition: color 450ms ease;transition: color 450ms ease;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters button:first-of-type {padding-left: 0;}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters button.is-checked {color: var(--main-color);}
+.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters button:hover {color: var(--grey-color);}
+@media only screen and (max-width:1199px) {.whizzy-client-banner {padding: 100px 15px 60px;}
+	.single-whizzy_proof_gallery .single-content-wrapper {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-ms-flex-wrap: wrap;flex-wrap: wrap;}
+	.single-whizzy_proof_gallery .single-content-wrapper #whizzy_proof_gallery {-webkit-box-ordinal-group: 3;-ms-flex-order: 2;order: 2;margin-bottom: 65px;}
+	.single-whizzy_proof_gallery .single-content-wrapper .whizzy-filters {margin: 75px auto 30px 0;}
+	.single-whizzy_proof_gallery .single-content-wrapper #whizzy_data {-webkit-box-ordinal-group: 2;-ms-flex-order: 1;order: 1;text-align: left;}
+	.single-whizzy_proof_gallery .single-content-wrapper #whizzy_data .a-btn-2:first-of-type {margin-left: 0;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data, .single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters, .single-whizzy_proof_gallery .whizzy-data .grid__item:last-child {float: none;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data, .single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters {width: 100%;}}
+@media only screen and (max-width:991px) {.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item {text-align: left;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item:last-child {padding-top: 0;}
+	.single-whizzy_proof_gallery .single-content-wrapper .whizzy-filters {margin-top: 60px;}
+	.single-whizzy_proof_gallery .single-content-wrapper #whizzy_proof_gallery {margin-bottom: 50px;}}
+@media only screen and (max-width:767px) {.whizzy-client-banner {padding: 90px 15px 50px;}
+	.single-whizzy_proof_gallery .single-content-wrapper #whizzy_proof_gallery {margin-bottom: 30px;}
+	.single-whizzy_proof_gallery .single-content-wrapper .whizzy-filters {margin-top: 50px;}
+	.single-whizzy_proof_gallery .single-content-wrapper .whizzy-data {margin-bottom: 25px;}}
+@media only screen and (max-width:600px) {.whizzy-client-banner .client-description {font-size: 16px;}
+	.whizzy-client-banner .client-name {letter-spacing: 1px;font-size: 17px;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .proof-photo .proof-photo__bg .proof-photo__id {letter-spacing: 1px;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap #whizzy_proof_gallery .proof-photo {margin-bottom: 15px !important;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters {margin-top: 35px;margin-bottom: 20px;text-align: center;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-filters button {margin: 15px 7px 0 7px;letter-spacing: 1px;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data {margin-bottom: 14px;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item {text-align: center;}
+	.single-whizzy_proof_gallery .whizzy-content-wrap .whizzy-data .grid__item button {margin: 0 5px 15px !important;letter-spacing: 1px;}}
