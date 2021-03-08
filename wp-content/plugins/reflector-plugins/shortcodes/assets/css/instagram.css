@@ -1,0 +1,8 @@
+.insta-wrapper {position: relative;}
+.insta-wrapper .info-hover {position: absolute;top: 50%;left: 50%;-webkit-transform: translate(-50%,-50%);-ms-transform: translate(-50%,-50%);transform: translate(-50%,-50%);padding: 18px 24px 15px 24px;background-color: var(--light-color);color: var(--grey-color);font-size: 12px;font-weight: 700;letter-spacing: 1.56px;text-transform: uppercase;z-index: 10;text-decoration: none;-webkit-transition: all .35s ease;-o-transition: all .35s ease;transition: all .35s ease;white-space: nowrap;}
+.insta-wrapper .info-hover a {text-decoration: none;color: var(--dark-color);-webkit-transition: color .35s ease;-o-transition: color .35s ease;transition: color .35s ease;}
+.insta-wrapper .info-hover a:hover {color: var(--main-color);}
+.insta-wrapper .insta-item {display: block;background-position: center;background-repeat: no-repeat;-webkit-background-size: cover;background-size: cover;width: -webkit-calc(100% / 6 + 1px);width: calc(100% / 6 + 1px);margin-left: -1px;padding-top: calc(100% / 6);overflow: hidden;}
+@media only screen and (max-width: 991px) {.insta-wrapper .insta-item {display: block;width: calc(100% / 3 + 1px);margin-left: -1px;padding-top: calc(100% / 3);}}
+@media only screen and (max-width: 576px) {.insta-wrapper .insta-item {width: calc(50% + 1px);margin-left: -1px;padding-top: 50%;}
+	.insta-wrapper .info-hover {letter-spacing: 1px;}}

@@ -1,0 +1,10 @@
+.cta-wrap.simple {display: -webkit-flex;display: flex;align-items: center;justify-content: space-between;}
+.cta-wrap.simple .title-wrap {padding-right: 50px;}
+.cta-wrap.simple .title-wrap .title {font-size: 29px;font-weight: 700;letter-spacing: 2.77px;line-height: 1.6;}
+.cta-wrap.simple .btn-wrapper {min-width: 300px;text-align: right;}
+@media only screen and (max-width: 1199px) {.cta-wrap.simple .title-wrap .title {line-height: 1.4;}}
+@media only screen and (max-width: 1024px) {.cta-wrap.simple .title-wrap .title {letter-spacing: 2px;}}
+@media only screen and (max-width: 991px) {.cta-wrap.simple {flex-direction: column;text-align: center;}
+	.cta-wrap.simple .title-wrap {padding-right: 0;}
+	.cta-wrap.simple .btn-wrapper {text-align: center;min-width: 1px;margin-top: 30px;}}
+@media only screen and (max-width: 768px) {.cta-wrap.simple .title-wrap .title {font-size: 26px;}}
