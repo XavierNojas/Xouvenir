@@ -1,0 +1,11 @@
+.error-wrap {padding: 80px 50px 80px;-webkit-box-sizing: border-box;box-sizing: border-box;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-ms-flex-align: center;align-items: center;text-align: center;position: fixed;left: 0;top: 0;right: 0;bottom: 0;}
+.error-wrap .bigtext {font-size: 220px;font-weight: 400;margin-bottom: 0;}
+.error-wrap .error-overlay {position: absolute;left: 0;top: 0;width: 100%;height: 100%;background-color: rgba(0,0,0,.35);}
+.error-wrap .error-overlay~* {position: relative;}
+.error-wrap .title {font-size: 21px;text-transform: uppercase;letter-spacing: 2px;}
+.error-wrap a {margin-top: 40px;}
+.error-wrap.light .bigtext, .error-wrap.light .subtitle, .error-wrap.light .title {color: var(--light-color);}
+@media (max-width:767px) {.error-wrap {padding: 50px 25px 50px;}
+	.error-wrap .bigtext {font-size: 130px;margin-bottom: 15px;}
+	.error-wrap .title {letter-spacing: 1px;}
+	.error-wrap a {margin-top: 30px;}}
