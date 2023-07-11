@@ -1,0 +1,20 @@
+.portfolio-details.classic_slider .slider-wrap {background-position: center;background-size: cover;position: absolute;top: 0;right: 0;left: 0;width: 100%;height: calc(100% - 15px);}
+.portfolio-details.classic_slider .content-wrap {position: absolute;left: 60px;bottom: 50px;}
+.portfolio-details.classic_slider .content-wrap .portfolio-title {color: var(--light-color);font-size: 29px;font-weight: 700;letter-spacing: 2px;display: inline-block;border-bottom: 1px solid var(--light-color);text-transform: uppercase;-ms-word-wrap: break-word;word-wrap: break-word;}
+.portfolio-details.classic_slider .swiper-slide {cursor: ew-resize;}
+.portfolio-details.classic_slider .swiper-pagination {position: absolute;bottom: 30px;right: 0;padding-right: 30px;text-align: right;display: none;}
+.portfolio-details.classic_slider .swiper-pagination .swiper-pagination-bullet {display: inline-block;background-color: var(--light-color);border-radius: 50%;height: 10px;width: 10px;cursor: pointer;margin: 0 0 0 10px;opacity: .7;-webkit-transition: opacity 350ms ease;-o-transition: opacity 350ms ease;transition: opacity 350ms ease;}
+.portfolio-details.classic_slider .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {opacity: 1;}
+.portfolio-details.classic_slider .single-pagination {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;margin-left: -15px;width: calc(100% + 30px);}
+.portfolio-details.classic_slider .single-pagination .pag-next {text-align: right;}
+.portfolio-details.classic_slider .single-pagination .pag-next, .portfolio-details.classic_slider .single-pagination .pag-prev {padding: 60px 15px 60px;width: 50%;}
+.portfolio-details.classic_slider .single-pagination .pag-next div, .portfolio-details.classic_slider .single-pagination .pag-prev div {font-size: 12px;text-transform: uppercase;font-weight: 700;color: var(--main-color);letter-spacing: 2px;margin-bottom: 5px;}
+.portfolio-details.classic_slider .single-pagination .pag-next a, .portfolio-details.classic_slider .single-pagination .pag-prev a {font-size: 15px;text-transform: uppercase;font-weight: 700;color: var(--dark-color);letter-spacing: 2px;text-decoration: none;}
+.portfolio-details.classic_slider .single-pagination .pag-next a:hover, .portfolio-details.classic_slider .single-pagination .pag-prev a:hover {color: var(--grey-color);opacity: 1;}
+@media only screen and (max-width:1300px) {.portfolio-details.classic_slider .content-wrap .portfolio-title {font-size: 26px;}}
+@media only screen and (max-width:991px) {.portfolio-details.classic_slider .content-wrap .portfolio-title {font-size: 21px;}}
+@media only screen and (max-width:768px) {.portfolio-details.classic_slider .content-wrap .portfolio-title {font-size: 17px;}
+	.portfolio-details.classic_slider .content-wrap {text-align: center;width: 100%;bottom: 20px;left: 0;padding: 0;}
+	.portfolio-details.classic_slider .content-wrap .excerpt {max-width: 100%;}}
+@media only screen and (max-width:600px) {.portfolio-details.classic_slider .single-pagination .pag-next, .portfolio-details.classic_slider .single-pagination .pag-prev {padding: 30px 15px 30px;}
+	.portfolio-details.classic_slider .single-pagination .pag-next a, .portfolio-details.classic_slider .single-pagination .pag-next div, .portfolio-details.classic_slider .single-pagination .pag-prev a, .portfolio-details.classic_slider .single-pagination .pag-prev div {letter-spacing: 1px;}}

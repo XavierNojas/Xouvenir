@@ -1,0 +1,7 @@
+.space-wrap.simple .item {width: calc(50% - 25px);margin-bottom: 25px;text-align: center;}
+.space-wrap.simple .item .image-wrap {display: block;padding-top: calc(100% / 4 * 2.6);background-position: center;background-size: cover;-webkit-transform: scale(1.05) translateZ(0);-moz-transform: scale(1.05) translateZ(0);transform: scale(1.05) translateZ(0);-webkit-transition: -webkit-transform 1s ease;-moz-transition: -moz-transform 1s ease;transition: transform 1s ease;}
+.space-wrap.simple .item .image-wrap:hover {-webkit-transform: scale(1) translateZ(0);-moz-transform: scale(1) translateZ(0);transform: scale(1) translateZ(0);}
+.space-wrap.simple .item .image-container {overflow: hidden;}
+.space-wrap.simple .item .title {display: inline-block;font-size: 17px;font-weight: 700;letter-spacing: 2.2px;text-transform: uppercase;text-decoration: none;padding: 15px 5px;-webkit-transition: all 450ms ease;-moz-transition: all 450ms ease;-ms-transition: all 450ms ease;-o-transition: all 450ms ease;transition: all 450ms ease;}
+.space-wrap.simple .item .title:hover {color: var(--main-color);}
+@media only screen and (max-width: 767px) {.space-wrap.simple .item {width: 100%;margin-bottom: 10px;}}
