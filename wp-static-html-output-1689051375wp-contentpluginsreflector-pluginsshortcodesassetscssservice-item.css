@@ -1,6 +1,0 @@
-.cs-service-item.classic .content {text-align: center;}
-.cs-service-item.classic .content .service-icon {font-size: 42px;display: block;-webkit-transition: all 450ms ease;-moz-transition: all 450ms ease;-ms-transition: all 450ms ease;-o-transition: all 450ms ease;transition: all 450ms ease;}
-.cs-service-item.classic .content .title {font-size: 17px;font-weight: 700;letter-spacing: 2.2px;line-height: 1.2;margin-top: 10px;margin-bottom: 20px;}
-.cs-service-item.classic .content .description {font-size: 17px;font-weight: 300;line-height: 1.67;color: var(--grey-color);}
-.cs-service-item.classic:hover .service-icon {color: var(--main-color);text-shadow: 3px 3px 6px var(--main-color);}
-@media only screen and (max-width: 768px) {.cs-service-item.classic .content .title {font-size: 16px;letter-spacing: 2px;}}
